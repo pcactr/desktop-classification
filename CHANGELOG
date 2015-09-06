@@ -1,0 +1,12 @@
+* Sun Sep 06 2015 Paul Arnold <paul.arnold@coleengineering.com> - 0.2.1
+- removed any localized information in prep to post to github
+- changed license to GPL v2.0
+
+* Tue Jun 02 2015 Paul Arnold <paul.arnold@coleengineering.com> - 0.2.0
+- added ability to match markings with classification-banner project
+  from fcaviggia <https://github.com/fcaviggia/classification-banner>
+- added ability to interactively restart gdm
+
+* Fri May 29 2015 Paul Arnold <paul.arnold@coleengineering.com> - 0.1.0
+- initial script used to generate desktop backgrounds with proper
+  classification markings
