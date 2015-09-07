@@ -235,7 +235,7 @@ fi
 ## try to detect current resolution
 if [[ -e /usr/bin/xrandr ]] && [[ $(/usr/bin/xrandr 2>/dev/null) && "$?" == "0" ]]
 then
-  res=$(xrandr 2>/dev/null| awk '/\*/ {print $1}' | uniq)
+  RES=$(xrandr 2>/dev/null| awk '/\*/ {print $1}' | uniq)
   echo "Screen resolution detected at: ${RES}"
 else
   echo "ERROR: xrandr resolution lookup failed."
